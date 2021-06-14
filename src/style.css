@@ -1,0 +1,59 @@
+#app {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.input-cell input {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+}
+
+.table-head td {
+    font-style: italic;
+    border: 1px solid black;
+    border-top-style: none;
+    border-left-style: dashed;
+    border-right-style: dashed;
+
+    padding: 3px;
+}
+
+.state-table {
+    text-align: center;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+.table-body tr {
+    margin: 0;
+    padding: 0;
+}    
+
+.table-body td {
+    border: 1px solid black;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.tabButton {
+    margin:10px;
+    padding: 5px;
+    background-color: white;
+}
+
+.tabButton:hover {
+    background-color: #efefef;
+}
+
+.tabButton.active {
+    background-color: #efefef;
+}
+
+.runButton {
+    margin-top:10px;
+}
